@@ -14,8 +14,11 @@ Create Project Page:-
   The Create Project Page enables users to create a new project by providing specific details.
   Features:
   1. Create Project Form: Accepts the following fields to create a project:
+
       Name: Name of the project.
+
       Description: Brief description of the project.
+
       Author: Name of the author or creator of the project.
   
 Project Detail Page:-
@@ -39,9 +42,13 @@ Create Issue Page:-
   Features:
   
   1. Create Issue Form: Accepts the following fields to create an issue:
+  
       Title: Title or summary of the issue.
+
       Description: Detailed description of the issue.
+
       Labels: Users can add multiple labels to categorize the issue. Existing labels for the project are displayed in a dropdown as the user types.
+
       Author: Name of the author or creator of the issue.
   
 **Getting Started**:
@@ -53,7 +60,8 @@ To run the Issue Tracker Application locally:
 3. Add the required .env file with Port and Database connection string (eg.):
 
    MONGODB_URL=mongodb://localhost:27017/IssueTracker
-   PORT = 3500
+
+    PORT = 3500
    
 4.Start the server: node index.js
 5.Open the application in your browser: http://localhost:{PORT}
