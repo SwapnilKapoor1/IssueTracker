@@ -7,13 +7,11 @@ Home Page:-
   Features:
   
   1. List of Projects: Displays a list of projects with their names, descriptions, and authors.
-
   2. Create New Project: Allows users to create a new project by providing a name, description, and author.
 
 Create Project Page:-
 
   The Create Project Page enables users to create a new project by providing specific details.
-
   Features:
   1. Create Project Form: Accepts the following fields to create a project:
       Name: Name of the project.
@@ -53,8 +51,8 @@ To run the Issue Tracker Application locally:
 1. Clone the repository: git clone <repository-url>
 2. Install dependencies: npm install
 3. Add the required .env file with Port and Database connection string (eg.):
-    MONGODB_URL=mongodb://localhost:27017/IssueTracker
-    PORT = 3500
-
+   MONGODB_URL=mongodb://localhost:27017/IssueTracker
+   PORT = 3500
+   
 4.Start the server: node index.js
 5.Open the application in your browser: http://localhost:{PORT}
