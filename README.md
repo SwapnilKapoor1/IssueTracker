@@ -39,10 +39,10 @@ Create Issue Page:-
   Features:
   
   1. Create Issue Form: Accepts the following fields to create an issue:
-       Title: Title or summary of the issue.
-       Description: Detailed description of the issue.
-       Labels: Users can add multiple labels to categorize the issue. Existing labels for the project are displayed in a dropdown as the user types.
-       Author: Name of the author or creator of the issue.
+      Title: Title or summary of the issue.
+      Description: Detailed description of the issue.
+      Labels: Users can add multiple labels to categorize the issue. Existing labels for the project are displayed in a dropdown as the user types.
+      Author: Name of the author or creator of the issue.
   
 **Getting Started**:
 
@@ -51,6 +51,7 @@ To run the Issue Tracker Application locally:
 1. Clone the repository: git clone <repository-url>
 2. Install dependencies: npm install
 3. Add the required .env file with Port and Database connection string (eg.):
+
    MONGODB_URL=mongodb://localhost:27017/IssueTracker
    PORT = 3500
    
